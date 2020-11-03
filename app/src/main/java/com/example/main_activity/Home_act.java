@@ -68,6 +68,9 @@ public class Home_act extends AppCompatActivity {
         //agrego los clientes con el dinero
         clientes.add(new ListClientes("Axel", 750000));
         clientes.add(new ListClientes("Roxana", 900000));
+        //Aqui agegue los 2 clientes adicionales.
+        clientes.add(new ListClientes("Betzabe",280000));
+        clientes.add(new ListClientes("Matias",350000));
 
 
         //aquí los 2 tipos de créditos, automotriz e hipotecario
